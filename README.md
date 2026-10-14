@@ -1,6 +1,5 @@
 # CodeSentinel
 
-[![CI](https://github.com/anshultripathi-dev/codesentinel/actions/workflows/ci.yml/badge.svg)](https://github.com/anshultripathi-dev/codesentinel/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
