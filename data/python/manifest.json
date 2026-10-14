@@ -1,0 +1,28 @@
+{
+  "snapshots": [
+    "2021-01-01",
+    "2021-07-01",
+    "2022-01-01",
+    "2022-07-01",
+    "2023-01-01"
+  ],
+  "window_days": 365,
+  "shallow_since": "2020-01-01",
+  "max_per_snapshot": 1500,
+  "repo_heads": {
+    "requests": "dae7ef63b4df6eded86637f251fc4e3a06c3b479",
+    "flask": "d73fa1cdcbd8b1465c151db8924ba58b1dd14e35",
+    "werkzeug": "6bcd0eb4c25d6f51888a52b1abe69045bdaedfe2",
+    "click": "6aabf099bfdd4c1e75fe8d0e0d4241372b988ab1",
+    "jinja": "5ef70112a1ff19c05324ff889dd30405b1002044",
+    "httpx": "b5addb64f0161ff6bfe94c124ef76f6a1fba5254",
+    "rich": "9d8f9a372cc5916fd4781fec207ced7ddac2f08f",
+    "tornado": "5dfa1ccf5918ac400911971adde918382ff83bd2",
+    "scrapy": "40dc142961080e37fdc2096ad1a79733bf932e45",
+    "celery": "135b83c718f63612c1f1585a3f5823edb31e2d4b",
+    "pytest": "6a9ba0f02f827a54cff6ab4da0dddecd65444ff6",
+    "black": "115caae279147a9de4cfc1c0f6bdc05f7e600156"
+  },
+  "rows": 50826,
+  "defect_rate": 0.027564632274819974
+}
