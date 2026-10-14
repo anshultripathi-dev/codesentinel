@@ -1,0 +1,21 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Generated: trained models are rebuilt with `make train` (leaderboard.json files are kept)
+*.joblib
+ml/artifacts/**/*.png
+
+# Local state
+codesentinel.db
+.DS_Store
+
+# Mining working data (the mined dataset.csv itself is committed)
+data/python/repos/
+data/python/cache/

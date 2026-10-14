@@ -1,0 +1,10 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+pydantic>=2
+radon>=6
+lizard>=1.17
+scikit-learn>=1.4
+pandas>=2
+numpy>=1.26
+joblib>=1.3
