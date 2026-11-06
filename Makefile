@@ -1,6 +1,6 @@
 PY ?= .venv/bin/python
 
-.PHONY: setup train api ui test mine build
+.PHONY: setup train api ui test mine build samples
 
 setup:            ## create venv, install backend + frontend deps
 	python3 -m venv .venv
@@ -25,3 +25,6 @@ build:            ## production build of the dashboard
 
 mine:             ## re-mine the Python dataset from git history (~15 min, needs network)
 	$(PY) -m backend.app.ml.mining
+
+samples:          ## regenerate the demo sample projects and zips
+	$(PY) samples/generate_samples.py
